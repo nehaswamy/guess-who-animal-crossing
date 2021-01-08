@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel = "stylesheet" href = "style.css">
+    <script type = "text/javascript" src = "acnh.js"></script>
+    <script src="script.js"></script>
+    <title>Guess Who? Animal Crossing Edition</title>
+  </head>
+  <body>
+    <h1 id = "header">Guess Who? Animal Crossing Edition</h1>
+    <h2>Rules</h2>
+    <ul>
+      <li>Each player has a set of 24 different villagers. Each player should have the same board. Players can choose which set they want by typing in a number from 1 through 16. </li>
+      <li>A villager will be chosen at random. The background color will be changed to gray to indicate this.</li>
+      <li>The youngest player goes first, beginning by asking the other player a characteristic about the villager. </li>
+      <li>If they say, “Yes,” the asking player clicks on all of the characters without that characteristic. If they say, “No,” the asking player clicks on all the villagers with that characteristic.</li>
+      <li>Players will eventually be able to “guess” the name of the opponents character."</li>
+    </ul>
+
+    <label for = "set">Choose a Set (1 - 16)</label>
+    <input type = "text" id = "set" name = "set"><br><br>
+    <button type = "button" id = "enter" onclick = "animalCrossing()">Enter</button>
+
+    <div class = 'row'>
+      <button type = "button" class = "label" id = "label1" onclick = "clicked('label1')"></button>
+      <button type = "button" class = "label" id = "label2" onclick = "clicked('label2')"></button>
+      <button type = "button" class = "label" id = "label3" onclick = "clicked('label3')"></button>
+      <button type = "button" class = "label" id = "label4" onclick = "clicked('label4')"></button>
+      <button type = "button" class = "label" id = "label5" onclick = "clicked('label5')"></button>
+      <button type = "button" class = "label" id = "label6" onclick = "clicked('label6')"></button>
+    </div>
+
+    <div class = 'row'>
+      <button type = "button" class = "label" id = "label7" onclick = "clicked('label7')"></button>
+      <button type = "button" class = "label" id = "label8" onclick = "clicked('label8')"></button>
+      <button type = "button" class = "label" id = "label9" onclick = "clicked('label9')"></button>
+      <button type = "button" class = "label" id = "label10" onclick = "clicked('label10')"></button>
+      <button type = "button" class = "label" id = "label11" onclick = "clicked('label11')"></button>
+      <button type = "button" class = "label" id = "label12" onclick = "clicked('label12')"></button>
+    </div>
+
+    <div class = 'row'>
+      <button type = "button" class = "label" id = "label13" onclick = "clicked('label13')"></button>
+      <button type = "button" class = "label" id = "label14" onclick = "clicked('label14')"></button>
+      <button type = "button" class = "label" id = "label15" onclick = "clicked('label15')"></button>
+      <button type = "button" class = "label" id = "label16" onclick = "clicked('label16')"></button>
+      <button type = "button" class = "label" id = "label17" onclick = "clicked('label17')"></button>
+      <button type = "button" class = "label" id = "label18" onclick = "clicked('label18')"></button>
+    </div>
+
+    <div class = 'row'>
+      <button type = "button" class = "label" id = "label19" onclick = "clicked('label19')"></button>
+      <button type = "button" class = "label" id = "label20" onclick = "clicked('label20')"></button>
+      <button type = "button" class = "label" id = "label21" onclick = "clicked('label21')"></button>
+      <button type = "button" class = "label" id = "label22" onclick = "clicked('label22')"></button>
+      <button type = "button" class = "label" id = "label23" onclick = "clicked('label23')"></button>
+      <button type = "button" class = "label" id = "label24" onclick = "clicked('label24')"></button>
+    </div>
+
+    <hr>
+    <div id = 'footer'>
+      <h2>Sources</h2>
+      <ul>
+        <li><a href = 'https://docs.google.com/spreadsheets/d/13d_LAJPlxMa_DubPTuirkIV4DERBMXbrWQsmSh8ReK4/edit#gid=872626192'>Animal Crossing Wiki (Fandom)</a></li>
+      </ul>
+    </div>
+  </body>
+</html>
